@@ -46,3 +46,20 @@ This matters given what the app covers (inversions, backbends, loaded single-leg
 - respecting known injury history (for example, controlling torso lean and hip hinge rather than rounding under load).
 
 None of that substitutes for in-person instruction on the harder skills. Keep that framing if you edit the content.
+
+### Optional: `caution`
+
+A track may carry a `caution` block, rendered above the progression so it is
+read before any stage work:
+
+```js
+caution: {
+  title: "Read before you invert",
+  points: ["...", "..."],
+}
+```
+
+Only `tripod` uses one today, because it is the single track that loads the
+cervical spine. Add one to any track where the failure mode is an injury
+rather than a missed rep. Keep points specific and actionable — name the
+sensation that means stop, not just "be careful".

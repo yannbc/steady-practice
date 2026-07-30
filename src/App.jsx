@@ -53,11 +53,18 @@ const TRACKS = [
     ],
     videos: [
       {
-        id: "r7xsYgTeM2Q",
-        title: "15 Min Morning Yoga - gentle joint wake-up",
-        by: "Yoga With Adriene",
-        min: 16,
-        tag: "Warm-up",
+        id: "4GW6QdSaQ6U",
+        title: "Ankle mobility - what limits it and how to test",
+        by: "E3 Rehab",
+        min: 15,
+        tag: "Assessment",
+      },
+      {
+        id: "WkdXHQ74khI",
+        title: "Can't squat? Ankle routine - follow along",
+        by: "Tom Merrick",
+        min: 10,
+        tag: "Follow-along",
       },
     ],
   },
@@ -128,11 +135,22 @@ const TRACKS = [
     blurb:
       "Crow builds the arm-balance base: weight forward onto the hands, knees to triceps, core switched on. Tripod headstand adds a stable three-point base and gets you comfortable inverted before free-standing work. Build both separately before linking them.",
     unlocks: "Needs dolphin's shoulder range first. Gateway to the crow-to-tripod transition.",
+    caution: {
+      title: "Read before you invert",
+      points: [
+        "The head is a reference point, not a pillar. Most of the load belongs in the hands and shoulders - if your neck is taking the weight, come down.",
+        "Skip this track entirely if you have a neck injury, disc problems, or recent whiplash, until a clinician clears you.",
+        "Never turn or nod your head while inverted. Come down, reposition, go again.",
+        "Tingling, numbness, or pinching in the neck or arms means come down now, not after one more breath.",
+        "Crow is where wrists usually complain first. Prep them, and practise bailing forward over a cushion before you need to.",
+      ],
+    },
     stages: [
       {
         name: "Crow foundation",
         goal: "Hold crow for 5+ breaths",
         drills: [
+          "Wrist prep first - circles, palm rocks, then gradual load. Never on cold wrists",
           "Squat + hands planted, knees to triceps, tip weight forward",
           "One toe lifts, then the other - stay looking forward not down",
           "Build to 5 breaths, then work on straightening the arms",
@@ -441,6 +459,20 @@ export default function App() {
           </div>
         </section>
 
+        {track.caution && (
+          <section style={S.caution} role="note" aria-label="Safety guidance">
+            <div style={S.cautionTitle}>{track.caution.title}</div>
+            <div style={S.cautionList}>
+              {track.caution.points.map((p, i) => (
+                <div key={i} style={S.cautionItem}>
+                  <span style={S.cautionDot} aria-hidden="true">△</span>
+                  <span>{p}</span>
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
+
         {/* PROGRESSION STAGES */}
         <section style={S.block}>
           <div style={S.blockHead}>
@@ -723,6 +755,25 @@ const S = {
     position: "relative",
     paddingLeft: 16,
   },
+
+  caution: {
+    background: "#fbeee6",
+    border: "1px solid #edd3c2",
+    borderLeft: `3px solid ${ACCENT}`,
+    borderRadius: 12,
+    padding: "16px 18px 17px",
+    marginBottom: 32,
+  },
+  cautionTitle: {
+    fontFamily: "'Fraunces', serif",
+    fontSize: 15.5,
+    fontWeight: 600,
+    color: ACCENT,
+    marginBottom: 9,
+  },
+  cautionList: { display: "flex", flexDirection: "column", gap: 8 },
+  cautionItem: { display: "flex", gap: 9, fontSize: 13.5, lineHeight: 1.55 },
+  cautionDot: { color: ACCENT, fontSize: 11, lineHeight: 1.8, flexShrink: 0 },
 
   cueList: { display: "flex", flexDirection: "column", gap: 9 },
   cue: {
