@@ -5,7 +5,7 @@ import React, { useState, useMemo, useEffect } from "react";
 // Organised around target skills, not full classes. Each track has staged
 // progressions, prerequisite notes, alignment cues, and curated videos.
 // Videos open on YouTube (new tab) - most reliable, embeds break on private.
-// Video IDs verified current at build; prune anything that 404s over time.
+// Video IDs channel and runtime verified against YouTube, 30 Jul 2026; prune anything that 404s over time.
 // ============================================================================
 
 const TRACKS = [
@@ -16,7 +16,7 @@ const TRACKS = [
     tagline: "Dorsiflexion for flat-foot squatting & clean transitions",
     blurb:
       "The quiet limiter under half your goals. Sitting flat, malasana, low lunge, chaturanga step-through and the base of a handstand all need ankle range. Little and often beats one long session. Discomfort is fine, sharp pinching is not.",
-    unlocks: "Underpins tripod, wheel prep and handstand base.",
+    unlocks: "Underpins single-leg rise, deep squats and any knee-over-toe shape.",
     stages: [
       {
         name: "Daily openers",
@@ -56,7 +56,7 @@ const TRACKS = [
         id: "r7xsYgTeM2Q",
         title: "15 Min Morning Yoga - gentle joint wake-up",
         by: "Yoga With Adriene",
-        min: 15,
+        min: 16,
         tag: "Warm-up",
       },
     ],
@@ -108,14 +108,14 @@ const TRACKS = [
         id: "m-kFo6FdlBA",
         title: "Dolphin Pose for inflexible beginners",
         by: "Man Flow Yoga",
-        min: 10,
+        min: 12,
         tag: "Foundations",
       },
       {
         id: "tEqqGOF7AbA",
         title: "Prasarita Padottanasana - wide-leg fold breakdown",
-        by: "Tutorial",
-        min: 8,
+        by: "Yoga Screen",
+        min: 3,
         tag: "Alignment",
       },
     ],
@@ -166,15 +166,15 @@ const TRACKS = [
       {
         id: "fA7gCOhhgik",
         title: "Crow Pose to Tripod Headstand - safe transition",
-        by: "Tutorial",
-        min: 8,
+        by: "Salti Yoga",
+        min: 3,
         tag: "Transition",
       },
       {
         id: "7wk7Rvne8VU",
         title: "Crow to Tripod - control & why it's not for everyone",
-        by: "Tate Englund",
-        min: 10,
+        by: "Tate Englund Functional Yoga",
+        min: 2,
         tag: "Technique",
       },
     ],
@@ -225,15 +225,15 @@ const TRACKS = [
       {
         id: "tqmZ8Ja9vH4",
         title: "Standing balance - why you wobble & how to fix it",
-        by: "Tutorial",
-        min: 12,
+        by: "Cathy Madeo Yoga",
+        min: 25,
         tag: "Balance",
       },
       {
         id: "bfLZAmA4RiI",
-        title: "Single-leg sit-to-stand - step by step",
-        by: "Tutorial",
-        min: 6,
+        title: "Single-leg sit-to-stand - quick form demo",
+        by: "Physio Plus Fitness",
+        min: 1,
         tag: "Strength",
       },
     ],
@@ -284,8 +284,8 @@ const TRACKS = [
       {
         id: "vxXT0NHZPss",
         title: "Urdhva Dhanurasana - alignment principles",
-        by: "Tutorial",
-        min: 9,
+        by: "Monica Arellano",
+        min: 6,
         tag: "Alignment",
       },
     ],
@@ -336,15 +336,15 @@ const TRACKS = [
       {
         id: "Cbq-2L4UNG8",
         title: "How to do Handstand - beginner Iyengar approach",
-        by: "Iyengar Yoga",
-        min: 12,
+        by: "Heather Kitchen Yoga",
+        min: 20,
         tag: "Foundations",
       },
       {
         id: "-orC4bLrzHU",
         title: "Handstand drills & progressions for beginners",
-        by: "Tutorial",
-        min: 14,
+        by: "FirestormFreerunning",
+        min: 4,
         tag: "Drills",
       },
     ],

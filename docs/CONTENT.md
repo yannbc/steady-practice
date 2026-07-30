@@ -17,14 +17,15 @@ This app is deliberately content-first. The code is a thin, stable shell around 
 The tracks aren't independent. Roughly:
 
 ```
-Ankle Mobility ──┬──> Dolphin & Wide Legs ──> Tripod & Crow ──> Handstand
-                 ├──> Single-Leg Rise
+Dolphin & Wide Legs ──> Tripod & Crow ──> Handstand
+
+Ankle Mobility ──┬──> Single-Leg Rise
                  └──> (squat-pattern poses generally)
 
 Wheel / Backbend ──> (shoulder opening that also supports Handstand)
 ```
 
-Ankle dorsiflexion underpins the most. Dolphin's shoulder flexion is a genuine prerequisite for stacking over the forearms in tripod. Each track's `unlocks` field states its place in the chain, so the ordering isn't arbitrary.
+Dolphin's shoulder flexion is the load-bearing link: it is a genuine prerequisite for stacking over the forearms in tripod, and from there for the handstand line. Ankle dorsiflexion matters, but its reach is narrower than it first appears — it gates single-leg rise and squat-pattern shapes, not the inversion chain. Dolphin is limited by shoulder flexion, wheel by quads, hip flexors and thoracic spine, and a handstand puts no load through the ankle at all. Each track's "why it matters" line states its own place in the chain.
 
 ## Field reference
 
