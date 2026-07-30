@@ -63,3 +63,49 @@ Only `tripod` uses one today, because it is the single track that loads the
 cervical spine. Add one to any track where the failure mode is an injury
 rather than a missed rep. Keep points specific and actionable — name the
 sensation that means stop, not just "be careful".
+
+### Optional field: `dosage`
+
+A one-line answer to "how often, and how long should this take?". Rendered in
+the hero under "How often". Give frequency, session length, and a realistic
+number of weeks in a stage, so nobody assumes they are failing at week three.
+
+```js
+dosage: "3 sessions a week, around 15 minutes, always on a warm body. 6 to 8 weeks per stage.",
+```
+
+### Optional field: `startHere`
+
+A self-test that tells a newcomer which stage to begin at, rendered above the
+progression. `test` is a single physical thing to try; `results` map outcomes to
+stages, one line each, in stage order.
+
+```js
+startHere: {
+  test: "Feet hip-width, toes forward. Squat as low as you can with both heels flat.",
+  results: [
+    "Heels lift, or you tip backwards - start at stage 1",
+    "Heels stay down but the bottom is a fight - stage 2",
+    "You can sit at the bottom and breathe easily for a minute - stage 3",
+  ],
+},
+```
+
+### Optional field: `alt` (per stage)
+
+One line inside a stage covering the common reason that stage does not work for
+a given body - wrist pain, knee pain, pregnancy, no floor access - and what to
+do instead. Rendered under the drills as "If that doesn't work for you".
+
+```js
+{
+  name: "Crow foundation",
+  goal: "Hold crow for 5+ breaths",
+  drills: [...],
+  alt: "Wrists unhappy? Work on fists or parallettes.",
+}
+```
+
+Write these for the reader who cannot do the stage as written, not for the
+reader who finds it easy. A track without `alt` lines silently assumes a body
+that can kneel, bear weight through the wrists and stand on one leg.
