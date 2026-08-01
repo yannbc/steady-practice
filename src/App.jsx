@@ -86,6 +86,209 @@ const TRACKS = [
     ],
   },
   {
+    id: "squat",
+    label: "Deep Squat",
+    glyph: "\u2304",
+    tagline: "sit at the bottom without tipping back",
+    blurb:
+      "A deep squat you can rest in needs three things at once: ankles that let the knee travel forward, hips that let the pelvis drop between the feet, and enough control to stay there without gripping. Rolling backwards is usually not tightness - it is your centre of mass sitting behind your feet.",
+    unlocks:
+      "The base position for Malasana, wide inversion entries, Skandasana, and most low transitions.",
+    dosage:
+      "Loaded work twice a week, at least 72 hours apart. Short holds on most other days if you want them. Two to four weeks per stage - the balance part usually moves faster than the range.",
+    caution: {
+      title: "Before you load the bottom position",
+      points: [
+        "Sharp knee pain at depth is a stop, not a stretch. Aching in the thighs is ordinary work.",
+        "A hard, abrupt pinch at the front of the ankle - rather than a calf stretch - usually means bone meeting bone. Widen the stance and turn the feet out instead of forcing depth.",
+        "Knee or hip replacement, or a meniscus repair, means get depth cleared before you load it.",
+      ],
+    },
+    startHere: {
+      test:
+        "Squat as low as you can with your feet flat and hands free, with a wall behind you. Note what happens and how long you last.",
+      results: [
+        "You tip backwards almost immediately - start at stage 1.",
+        "You reach the bottom but only with the heels lifted - stage 1, and keep the heel lift.",
+        "Heels down, but you last only 10-20 seconds - start at stage 2.",
+        "A comfortable 60 seconds at the bottom - start at stage 3.",
+      ],
+    },
+    stages: [
+      {
+        name: "Counterweight squat",
+        goal: "Find a bottom position your body will actually accept.",
+        drills: [
+          "Hold 4-8 kg out in front at chest height - kettlebell, dumbbell, or two full water bottles",
+          "Lower slowly and sit at the bottom for 20-30 seconds",
+          "5 rounds, resting as long as you need between them",
+          "Heels on a book or a rolled mat if they lift",
+        ],
+        alt:
+          "Nothing to hold: grip a doorframe or a heavy table edge and let your arms carry a little of your weight. Same effect.",
+      },
+      {
+        name: "Take the help away",
+        goal: "Same depth, less assistance.",
+        drills: [
+          "Repeat the hold, dropping the counterweight by 1-2 kg each week",
+          "Once the weight is gone, lower the heel lift by one book",
+          "5 x 20-30 seconds",
+          "Chest tall - collapsing forward is a different pose wearing the same name",
+        ],
+        alt:
+          "Knees object at full depth: stop just above the point of complaint and hold there. Range returns as tolerance does.",
+      },
+      {
+        name: "Own the bottom",
+        goal: "Move around while you are down there.",
+        drills: [
+          "Sit at the bottom and shift side to side - 10 slow shifts",
+          "Lift one heel, then the other - 10 each",
+          "Reach one arm overhead without losing depth",
+          "3 rounds",
+        ],
+        alt:
+          "Wrist or shoulder trouble: drop the overhead reach and keep the weight shifts. They are the part that matters.",
+      },
+      {
+        name: "In and out honestly",
+        goal: "No bounce, no rock, no momentum.",
+        drills: [
+          "Lower over 4-5 seconds, pause 3 seconds, stand without rocking forward",
+          "8 reps, 3 sets",
+          "Add light weight at the chest once bodyweight is easy",
+        ],
+        alt:
+          "If standing up needs a rock, keep the counterweight a while longer. That is a balance problem, not a strength one.",
+      },
+    ],
+    cues: [
+      "Feet as wide as they need to be. There is no correct stance width - yours is set by your hip sockets.",
+      "Turn the toes out until the knees track over them without pinching.",
+      "Weight through the whole foot. Not the toes, not the heels.",
+      "Tipping back is a mass problem. The fix is weight in front, not more stretching.",
+      "The bottom of a squat is a resting place. If you are gripping, you are not there yet.",
+    ],
+    videos: [
+      {
+        id: "X5934zhTAQw",
+        title: "Ankle Stretches Won't Fix Your Squat (Here's Why)",
+        by: "GMB Fitness (Praxis)",
+        min: 4,
+        tag: "Assessment",
+      },
+      {
+        id: "a6Na67zUMZk",
+        title: "How to Asian Squat - 3 Exercises You Need",
+        by: "Upright Health",
+        min: 6,
+        tag: "Drills",
+      },
+    ],
+  },
+  {
+    id: "skandasana",
+    label: "Skandasana / Side Lunge",
+    glyph: "\u25FA",
+    tagline: "one pose, three separate limiters",
+    blurb:
+      "Modern yoga calls the deep side lunge Skandasana, after Skanda the god of war. Worth knowing the name is modern usage - in Light on Yoga, Skandasana is a different and far harder seated pose. It sits at the meeting point of ankle dorsiflexion on the bent side, adductor length on the straight side, and the balance to stay upright between the two.",
+    unlocks:
+      "Wide standing poses, the straddle, low transitions - and honest information about which of your three limiters is actually stopping you.",
+    dosage:
+      "Loaded work twice a week alongside your other strength work; supported holds on most days. Four to eight weeks to change what you can hold, longer for the straight-leg range.",
+    caution: {
+      title: "Adductors tear more readily than they lengthen",
+      points: [
+        "The inner thigh of the straight leg is the tissue at risk. Sharp or sudden pain there is a stop, not a signal to push.",
+        "Warm up first. Cold adductors under load is the classic groin strain.",
+        "A history of groin strain, or any hip labral diagnosis, means get this one cleared before loading it.",
+      ],
+    },
+    startHere: {
+      test:
+        "Step wide, bend one knee and lower as far as you can, keeping the other leg straight with the foot flat or the toes up. Note what you feel FIRST - and check both sides, because they often differ.",
+      results: [
+        "You topple backwards before anything stretches - balance-limited. Stage 1, holding something.",
+        "A strong pull in the inner thigh of the straight leg - adductor-limited. Stage 1, then prioritise stage 3.",
+        "A hard pinch at the front of the bent ankle - ankle-limited. Stage 1 with a heel lift, and work the Ankle Mobility track.",
+        "You reach the bottom comfortably with hands free - start at stage 3.",
+      ],
+    },
+    stages: [
+      {
+        name: "Supported, heel raised",
+        goal: "Remove the balance demand so you can find your real range.",
+        drills: [
+          "Hold a doorframe, chair back or wall",
+          "Bent-side heel on a stack of 2-3 books",
+          "Lower to your limit, hold 20-30 seconds - 4 per side",
+          "The straight leg stays straight; let that foot roll onto its heel if it wants to",
+        ],
+        alt:
+          "No hand support nearby: sit on a low block or a stair step and lean into the shape instead.",
+      },
+      {
+        name: "Lower the books",
+        goal: "The progression is heel height, not depth.",
+        drills: [
+          "Same hold, one book fewer each week",
+          "Keep the hand support for as long as you need it",
+          "4 holds per side",
+          "Tie the book you remove to your worse side, so the gap does not widen",
+        ],
+        alt:
+          "One side much worse: train it first, give it an extra set, and let it set the pace for both.",
+      },
+      {
+        name: "Load the lengthening",
+        goal: "Strength through the range, not just access to it.",
+        drills: [
+          "Eccentric side lunge - lower over 4-5 seconds, hands assist to stand - 3 x 5 per side",
+          "Active straddle lifts - sit wide, hands off the floor, lift one leg, hold 3 seconds - 8 per side",
+          "This is strength work, so it does not spend your stretching budget for the day",
+        ],
+        alt:
+          "Cannot sit upright on the floor with legs wide: sit on a folded blanket or block. Rounding at the low back means the hips are not ready to be on the floor yet.",
+      },
+      {
+        name: "Free and moving",
+        goal: "Cross from side to side without hands.",
+        drills: [
+          "Lower into the lunge, hands free, hold 20 seconds",
+          "Shift across to the other side without standing up - 6 crossings",
+          "A light counterweight at the chest helps you stay upright",
+        ],
+        alt:
+          "Still tipping without hands: keep one fingertip on a wall. That is a real stage, not a failure.",
+      },
+    ],
+    cues: [
+      "The straight leg's foot may roll up onto its heel. Forcing it flat is a harder, different pose.",
+      "Chest up. Folding forward disguises a lack of depth.",
+      "Sit back and down, not forward over the bent foot.",
+      "Both sides every time, starting with the worse one.",
+      "Treat it as a strength position as much as a stretch and it moves faster.",
+    ],
+    videos: [
+      {
+        id: "tpczTeSkHz0",
+        title: "How to Cossack Squat Mobility Exercise: Tutorial & Progressions",
+        by: "FitnessFAQs",
+        min: 3,
+        tag: "Progression",
+      },
+      {
+        id: "W-KbaAOpMhM",
+        title: "Cossack Squats: GOAT leg strength & mobility exercise!",
+        by: "Tom Morrison",
+        min: 3,
+        tag: "Technique",
+      },
+    ],
+  },
+  {
     id: "dolphin",
     label: "Dolphin & Wide Legs",
     glyph: "⋀",
@@ -162,6 +365,105 @@ const TRACKS = [
     ],
   },
   {
+    id: "overhead",
+    label: "Overhead & Thoracic",
+    glyph: "\u21E1",
+    tagline: "the limiter nobody diagnoses",
+    blurb:
+      "Getting the arms fully overhead needs the shoulder and the upper back to share the work. When the upper back will not extend, the arms run out of room and the low back arches to make up the difference. It never hurts, so it rarely gets noticed - it just quietly caps every inversion and backbend you attempt.",
+    unlocks:
+      "Dolphin, forearm stand, the handstand line, Wheel, and a down dog that stops feeling like a shoulder fight.",
+    dosage:
+      "Two loaded sessions a week plus two or three short mobility doses. This is more often a strength problem than a stretch problem. Four to eight weeks for a visible change.",
+    caution: {
+      title: "Where this one goes wrong",
+      points: [
+        "Reaching further by arching the low back is the exact fault this track exists to fix. Ribs down first, then move.",
+        "Pinching at the top of the shoulder, or a painful arc partway up, is worth having looked at rather than stretching through.",
+        "Shoulder pain that wakes you at night deserves an assessment before you load it overhead.",
+      ],
+    },
+    startHere: {
+      test:
+        "Lie on your back, knees bent, low back pressed flat to the floor. Raise straight arms overhead, thumbs leading, without letting the ribs flare.",
+      results: [
+        "Thumbs nowhere near the floor, or they only arrive by arching - start at stage 1.",
+        "Thumbs touch with effort and the back stays flat - start at stage 2.",
+        "Thumbs rest on the floor easily - start at stage 3 and put your time into loading it.",
+      ],
+    },
+    stages: [
+      {
+        name: "Find the ribs",
+        goal: "Separate arm movement from back arching.",
+        drills: [
+          "On your back, low back flat, exhale and draw the ribs down",
+          "Raise straight arms to the point where the back wants to arch - stop exactly there",
+          "10 slow reps, 3 sets",
+          "A hand on the ribs tells you when they flare. That is your true end range.",
+        ],
+        alt:
+          "Uncomfortable on the floor: stand with your back to a wall and keep the low back in contact instead.",
+      },
+      {
+        name: "Wall slides",
+        goal: "Bring the upper back into it.",
+        drills: [
+          "Back to the wall, low back flat, forearms on the wall",
+          "Slide up until the ribs flare, then back down - 10 reps, 3 sets",
+          "A foam roller or rolled towel lengthwise under the spine for 60 seconds first, if you have one",
+        ],
+        alt:
+          "Wrists or elbows complain: slide with the backs of the hands lightly on the wall rather than the forearms.",
+      },
+      {
+        name: "Load it overhead",
+        goal: "Strength at the range you just found.",
+        drills: [
+          "Light weight pressed overhead with the ribs down - 2-5 kg is plenty",
+          "3 x 8, slow, pausing at the top",
+          "End the rep where the ribs flare, not at lockout",
+        ],
+        alt:
+          "No weights: press up into a doorframe for 5 seconds, 8 times. Isometric work counts.",
+      },
+      {
+        name: "Take it upside down",
+        goal: "Transfer it to your inversions.",
+        drills: [
+          "Dolphin holds, aiming for shoulders stacked over elbows - 3 x 30-45 seconds",
+          "Pike walk-ins at a wall - 5 slow reps",
+          "Recheck the supine test monthly; it should keep moving",
+        ],
+        alt:
+          "Shoulders will not stack in dolphin yet: elevate the feet on a low step so less weight travels forward.",
+      },
+    ],
+    cues: [
+      "Ribs down before arms up. Every single time.",
+      "Range that only appears when your back arches is not range you own.",
+      "Thumbs leading, palms turning up - external rotation buys you room.",
+      "This caps your inversions more than weak shoulders do.",
+      "Retest monthly against a flat low back. It is the honest measure.",
+    ],
+    videos: [
+      {
+        id: "YP-QZTenli4",
+        title: "How To Assess & Improve Your Shoulder Overhead Mobility",
+        by: "[P]rehab",
+        min: 15,
+        tag: "Assessment",
+      },
+      {
+        id: "csjTuWpZA10",
+        title: "4 BEST Thoracic Mobility Exercises and Progressions (Extension and Rotation)",
+        by: "E3 Rehab",
+        min: 16,
+        tag: "Drills",
+      },
+    ],
+  },
+  {
     id: "tripod",
     label: "Tripod & Crow",
     glyph: "△",
@@ -183,6 +485,7 @@ const TRACKS = [
     caution: {
       title: "Read before you invert",
       points: [
+        "Newer to the practice, or past about 45? The forearm route - Dolphin, then forearm stand - builds the same capacity with no load through the head, and transfers to more. Consider starting there instead.",
         "The head is a reference point, not a pillar. Most of the load belongs in the hands and shoulders - if your neck is taking the weight, come down.",
         "Skip this track entirely if you have a neck injury, disc problems, or recent whiplash, until a clinician clears you.",
         "Never turn or nod your head while inverted. Come down, reposition, go again.",
@@ -511,8 +814,484 @@ function loadProgress() {
   }
 }
 
+/* ----------------------------------------------------------------
+   30-DAY BLOCK
+   A dated training block that sits alongside the tracks.
+   Principle: class is where you spend range; home is where you
+   build the capacity to own it. So this is strength and skill.
+   ---------------------------------------------------------------- */
+
+const PLAN_KEY = "steady-practice-plan";
+
+const SESSIONS = {
+  skill: {
+    label: "Skill snack",
+    len: "8-10 min",
+    aim: "Low fatigue, high frequency. Never to failure, never sore. This is where fast progress comes from.",
+    items: [
+      { text: "Dolphin hold - 3 x 30-45 s", track: "dolphin" },
+      { text: "Wide-stance weight shift - fold, hands planted, shift forward until the toes go light - 8 x 5 s", track: null },
+      { text: "Crow - 5 x 10-20 s", track: "tripod" },
+      { text: "Single-leg stand, eyes closed - 3 x 30 s per side", track: "singleleg" },
+    ],
+  },
+  strength: {
+    label: "Strength session",
+    len: "30 min",
+    aim: "Progressive load, controlled 3-4 s lowering. Twice a week, at least 72 hours apart. This is the tendon and end-range stimulus.",
+    items: [
+      { text: "Counterweight squat - 4-8 kg held in front, 5 x 20-30 s at depth", track: "squat" },
+      { text: "Eccentric side lunge - lower 4-5 s, hands assist to stand - 3 x 5 per side", track: "skandasana" },
+      { text: "Heavy-slow calf raises - 3 x 8, 4 s down, include a bent-knee set", track: "ankle" },
+      { text: "Overhead progression - wall slides, then light weight with ribs down - 3 x 8", track: "overhead" },
+      { text: "Active straddle lifts - sit wide, hands off the floor, lift one leg, hold 3 s - 3 x 8 per side", track: "skandasana" },
+    ],
+  },
+  mobility: {
+    label: "Targeted mobility",
+    len: "4 min, no more",
+    aim: "Only for a limiter you measured. Skip it if class already hammered that area today - range gains plateau at about 10 minutes a week per muscle group.",
+    items: [
+      { text: "Banded ankle mobilisation - 15 slow reps per side", track: "ankle" },
+      { text: "If your ankle end-feel was bony: 90/90 hip sits instead - 5 slow transitions per side", track: null },
+    ],
+  },
+};
+
+/* Sunday .. Saturday. One genuine rest day; strength Tue and Fri sits 72h+ apart. */
+const WEEK = [[], ["skill", "mobility"], ["strength"], ["skill"], ["skill", "mobility"], ["strength"], ["skill"]];
+const DAYNAME = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+
+const BASELINE = [
+  {
+    id: "ktw",
+    name: "Knee to wall",
+    prompt:
+      "Heel down, knee to the wall, slide the foot back to your limit. Measure toe-to-wall. Norms are roughly 9-10.5 cm.",
+    fields: [{ k: "l", label: "Left (cm)" }, { k: "r", label: "Right (cm)" }],
+    note:
+      "End-feel matters more than the number. A springy calf stretch is soft tissue and trainable. A hard, abrupt block with a pinch at the front of the ankle is likely bone - keep a permanent heel lift and route depth through the hips instead.",
+  },
+  {
+    id: "oh",
+    name: "Overhead reach",
+    prompt:
+      "On your back, knees bent, low back pressed flat. Raise straight arms overhead. Do the thumbs reach the floor without the ribs flaring?",
+    fields: [{ k: "v", label: "Gap to floor (cm), back flat" }],
+    note: "Reaching only by arching the back is the fault, and it is the usual finding. This is the limiter most people never diagnose.",
+  },
+  {
+    id: "sq",
+    name: "Squat hold",
+    prompt: "Deep squat, heels down, hands free. How long before you tip backwards?",
+    fields: [{ k: "v", label: "Seconds" }, { k: "h", label: "Heel lift used" }],
+  },
+  {
+    id: "sk",
+    name: "Skandasana",
+    prompt:
+      "Side lunge, both sides. Record the heel height you needed and what you felt FIRST - inner thigh, ankle pinch, or tipping.",
+    fields: [{ k: "l", label: "Left" }, { k: "r", label: "Right" }],
+    note: "Different first sensation means a different fix. Sides often differ.",
+  },
+  {
+    id: "dol",
+    name: "Dolphin hold",
+    prompt: "Hold until the shoulders collapse or the heels drift forward.",
+    fields: [{ k: "v", label: "Seconds" }],
+  },
+];
+
+function loadPlan() {
+  const empty = { retreat: "", baseline: {}, retest: {}, done: {} };
+  try {
+    const raw = localStorage.getItem(PLAN_KEY);
+    const p = raw ? JSON.parse(raw) : null;
+    if (!p || typeof p !== "object" || Array.isArray(p)) return empty;
+    return { ...empty, ...p };
+  } catch {
+    return empty;
+  }
+}
+
+function dayKey(d) {
+  const x = d || new Date();
+  const m = String(x.getMonth() + 1).padStart(2, "0");
+  const day = String(x.getDate()).padStart(2, "0");
+  return `${x.getFullYear()}-${m}-${day}`;
+}
+function parseDay(s) {
+  const [y, m, d] = String(s).split("-").map(Number);
+  return new Date(y, m - 1, d);
+}
+function daysUntil(target) {
+  const a = parseDay(dayKey());
+  const b = parseDay(target);
+  return Math.round((b - a) / 86400000);
+}
+function isDateStr(s) {
+  return /^\d{4}-\d{2}-\d{2}$/.test(String(s || ""));
+}
+
+function PlanView({ plan, setPlan, goTrack }) {
+  const today = dayKey();
+  const dow = new Date().getDay();
+  const hasDate = isDateStr(plan.retreat);
+  const left = hasDate ? daysUntil(plan.retreat) : null;
+
+  const baselineDone = BASELINE.some((t) =>
+    t.fields.some((f) => ((plan.baseline || {})[t.id] || {})[f.k])
+  );
+
+  const arrived = hasDate && left <= 0;
+  const tapering = hasDate && left > 0 && left <= 4;
+  const retestTime = hasDate && left <= 5 && left > 0;
+
+  const scheduled = WEEK[dow];
+  const doneToday = (plan.done || {})[today] || [];
+
+  function setRetreat(v) {
+    setPlan((p) => ({ ...p, retreat: v }));
+  }
+  function setField(group, testId, key, value) {
+    setPlan((p) => {
+      const g = { ...(p[group] || {}) };
+      g[testId] = { ...(g[testId] || {}), [key]: value };
+      return { ...p, [group]: g };
+    });
+  }
+  function toggleDone(type) {
+    setPlan((p) => {
+      const d = { ...(p.done || {}) };
+      const cur = new Set(d[today] || []);
+      cur.has(type) ? cur.delete(type) : cur.add(type);
+      const arr = Array.from(cur);
+      if (arr.length) d[today] = arr;
+      else delete d[today];
+      return { ...p, done: d };
+    });
+  }
+
+  /* 72-hour spacing check for strength work */
+  let strengthGapWarning = null;
+  if (scheduled.includes("strength")) {
+    const dates = Object.keys(plan.done || {})
+      .filter((k) => (plan.done[k] || []).includes("strength") && k < today)
+      .sort();
+    if (dates.length) {
+      const gap = Math.round((parseDay(today) - parseDay(dates[dates.length - 1])) / 86400000);
+      if (gap < 3)
+        strengthGapWarning = `Your last strength session was ${gap === 1 ? "yesterday" : gap + " days ago"}. This block wants 72 hours between them - make today lighter, or swap it for a skill snack.`;
+    }
+  }
+
+  /* last 14 days, oldest first */
+  const strip = [];
+  for (let i = 13; i >= 0; i--) {
+    const d = new Date();
+    d.setDate(d.getDate() - i);
+    const k = dayKey(d);
+    strip.push({ k, d, types: (plan.done || {})[k] || [] });
+  }
+
+  const others = ["skill", "strength", "mobility"].filter((t) => !scheduled.includes(t));
+
+  return (
+    <main className="fade" style={P.wrap}>
+      <style>{`
+        .planChip { transition: all .18s ease; cursor: pointer; }
+        .planChip:hover { border-color: ${ACCENT}; }
+        .planJump { transition: color .18s ease; cursor: pointer; }
+        .planJump:hover { color: ${ACCENT}; }
+      `}</style>
+
+      <section style={P.head}>
+        <div>
+          <h2 style={P.h2}>The 30-day block</h2>
+          <p style={P.principle}>
+            Class is where you spend range. Home is where you build the capacity
+            to own it. So this block is strength and skill - the stretching stays
+            in the studio.
+          </p>
+        </div>
+        <div style={P.dateBox}>
+          <label style={P.dateLabel} htmlFor="retreatDate">
+            Retreat starts
+          </label>
+          <input
+            id="retreatDate"
+            type="date"
+            value={plan.retreat || ""}
+            onChange={(e) => setRetreat(e.target.value)}
+            style={P.dateInput}
+          />
+          {hasDate && (
+            <div style={P.countdown}>
+              {arrived
+                ? "You're there"
+                : `${left} ${left === 1 ? "day" : "days"} to go`}
+            </div>
+          )}
+        </div>
+      </section>
+
+      {!baselineDone && (
+        <section style={P.callout}>
+          <div style={P.calloutTitle}>Start here - day one is measurement</div>
+          <p style={P.calloutBody}>
+            Twenty minutes, five tests, numbers written down. Without them, day
+            twenty-six is a guess instead of an answer. Nothing to train today.
+          </p>
+        </section>
+      )}
+
+      {arrived ? (
+        <section style={P.today}>
+          <div style={P.todayHead}>
+            <span style={P.todayTag}>At the retreat</span>
+          </div>
+          <p style={P.aim}>
+            Training is done. Practise, rest, and let the work show up. Nothing
+            new, no maxes, and if something feels off on day one, that is fatigue
+            talking - not a reason to push.
+          </p>
+        </section>
+      ) : (
+        <>
+          {tapering && (
+            <section style={P.taper}>
+              <div style={P.calloutTitle}>Taper - final {left} {left === 1 ? "day" : "days"}</div>
+              <p style={P.calloutBody}>
+                Halve the volume, keep the frequency and the movement quality. No
+                new maxes, no head loading, nothing novel. Arriving fresh beats
+                arriving fitter.
+              </p>
+            </section>
+          )}
+
+          <section style={P.today}>
+            <div style={P.todayHead}>
+              <span style={P.todayTag}>
+                {DAYNAME[dow]} - {scheduled.length ? "today's work" : "rest day"}
+              </span>
+              {tapering && scheduled.length > 0 && (
+                <span style={P.halfTag}>half volume</span>
+              )}
+            </div>
+
+            {scheduled.length === 0 ? (
+              <p style={P.aim}>
+                Nothing scheduled. At 49, with this class load, the rest day is
+                doing real work - take it.
+              </p>
+            ) : (
+              <>
+                {strengthGapWarning && (
+                  <div style={P.warn}>
+                    <span style={P.warnDot}>&#9651;</span>
+                    <span>{strengthGapWarning}</span>
+                  </div>
+                )}
+                {scheduled.map((type) => {
+                  const s = SESSIONS[type];
+                  const done = doneToday.includes(type);
+                  return (
+                    <div key={type} style={{ ...P.sess, ...(done ? P.sessDone : {}) }}>
+                      <div style={P.sessHead}>
+                        <div>
+                          <span style={P.sessName}>{s.label}</span>
+                          <span style={P.sessLen}>{s.len}</span>
+                        </div>
+                        <button
+                          className="planChip"
+                          onClick={() => toggleDone(type)}
+                          style={{ ...P.chip, ...(done ? P.chipOn : {}) }}
+                        >
+                          {done ? "\u2713 done" : "mark done"}
+                        </button>
+                      </div>
+                      <p style={P.aim}>{s.aim}</p>
+                      <ul style={P.items}>
+                        {s.items.map((it, i) => (
+                          <li key={i} style={P.item}>
+                            <span>{it.text}</span>
+                            {it.track && (
+                              <button
+                                className="planJump"
+                                onClick={() => goTrack(it.track)}
+                                style={P.jump}
+                              >
+                                open track &rarr;
+                              </button>
+                            )}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  );
+                })}
+              </>
+            )}
+
+            {others.length > 0 && (
+              <details style={P.others}>
+                <summary style={P.summary}>
+                  Doing something else today? Log it
+                </summary>
+                <div style={P.otherRow}>
+                  {others.map((t) => (
+                    <button
+                      key={t}
+                      className="planChip"
+                      onClick={() => toggleDone(t)}
+                      style={{
+                        ...P.chip,
+                        ...(doneToday.includes(t) ? P.chipOn : {}),
+                      }}
+                    >
+                      {doneToday.includes(t) ? "\u2713 " : ""}
+                      {SESSIONS[t].label}
+                    </button>
+                  ))}
+                </div>
+              </details>
+            )}
+          </section>
+
+          <section style={P.block}>
+            <h3 style={P.h3}>The week</h3>
+            <div style={P.weekGrid}>
+              {[1, 2, 3, 4, 5, 6, 0].map((d) => (
+                <div
+                  key={d}
+                  style={{ ...P.weekCell, ...(d === dow ? P.weekToday : {}) }}
+                >
+                  <div style={P.weekDay}>{DAYNAME[d]}</div>
+                  <div style={P.weekWork}>
+                    {WEEK[d].length
+                      ? WEEK[d].map((t) => SESSIONS[t].label.split(" ")[0]).join(" + ")
+                      : "off"}
+                  </div>
+                </div>
+              ))}
+            </div>
+            <p style={P.hint}>
+              Two hard sessions, spaced. Skill work most days. At 49 what has
+              narrowed is recovery between hard sessions, not your capacity to
+              adapt - so the intensity stays, the frequency drops.
+            </p>
+          </section>
+
+          <section style={P.block}>
+            <h3 style={P.h3}>Last two weeks</h3>
+            <div style={P.strip}>
+              {strip.map((s) => (
+                <div key={s.k} style={P.stripCell} title={s.k}>
+                  <div style={P.stripDay}>{DAYNAME[s.d.getDay()][0]}</div>
+                  <div
+                    style={{
+                      ...P.stripMark,
+                      ...(s.types.length ? P.stripOn : {}),
+                      ...(s.types.includes("strength") ? P.stripStrong : {}),
+                      ...(s.k === today ? P.stripToday : {}),
+                    }}
+                  />
+                </div>
+              ))}
+            </div>
+            <p style={P.hint}>
+              Blank days are not failures - a rest day is built in, and missing
+              one changes nothing. This is here so you can see the spacing of your
+              hard sessions, not to keep a streak.
+            </p>
+          </section>
+        </>
+      )}
+
+      <section style={P.block}>
+        <h3 style={P.h3}>
+          Baseline {retestTime || arrived ? "and retest" : ""}
+        </h3>
+        <p style={P.hint}>
+          {retestTime || arrived
+            ? "Retest time. Same conditions, same time of day if you can. Compare against day one - not against anyone in the room."
+            : "Five tests, twenty minutes, once. Retest opens five days before the retreat."}
+        </p>
+        {BASELINE.map((t) => (
+          <div key={t.id} style={P.test}>
+            <div style={P.testName}>{t.name}</div>
+            <p style={P.testPrompt}>{t.prompt}</p>
+            {t.note && <p style={P.testNote}>{t.note}</p>}
+            <div style={P.fieldRow}>
+              {t.fields.map((f) => (
+                <div key={f.k} style={P.field}>
+                  <label style={P.fieldLabel}>{f.label}</label>
+                  <div style={P.fieldPair}>
+                    <input
+                      value={((plan.baseline || {})[t.id] || {})[f.k] || ""}
+                      onChange={(e) => setField("baseline", t.id, f.k, e.target.value)}
+                      placeholder="day 1"
+                      style={P.input}
+                    />
+                    {(retestTime || arrived) && (
+                      <input
+                        value={((plan.retest || {})[t.id] || {})[f.k] || ""}
+                        onChange={(e) => setField("retest", t.id, f.k, e.target.value)}
+                        placeholder="retest"
+                        style={{ ...P.input, ...P.inputRetest }}
+                      />
+                    )}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        ))}
+      </section>
+
+      <section style={P.block}>
+        <h3 style={P.h3}>What will and will not move in 30 days</h3>
+        <div style={P.expect}>
+          {[
+            ["Skill, balance, coordination", "days to 4 weeks", "the fastest thing available to you", true],
+            ["Neural strength", "2 to 4 weeks", "real gains, no size change needed", true],
+            ["Active end-range strength", "4 to 8 weeks", "partial, and worth starting", false],
+            ["Passive range", "4 to 6 weeks, small", "mostly stretch tolerance, and class covers it", false],
+            ["Tendon remodelling", "12+ weeks", "will not finish - start it anyway", false],
+          ].map(([a, b, c, fast]) => (
+            <div key={a} style={P.expectRow}>
+              <span style={{ ...P.expectDot, ...(fast ? P.expectFast : {}) }}>
+                {fast ? "\u25CF" : "\u25CB"}
+              </span>
+              <div>
+                <div style={P.expectName}>{a}</div>
+                <div style={P.expectTime}>
+                  {b} - {c}
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+        <p style={P.hint}>
+          Expect to feel more capable from control and strength well before your
+          hips get wider. That is the honest order, not a consolation prize.
+        </p>
+      </section>
+
+      <p style={P.disclaimer}>
+        A dated block, not medical advice. Hip architecture varies enormously
+        between people and mechanically limits what range is available - a hard,
+        abrupt, repeatable block at the same angle when you are warm is
+        information about your skeleton, not a verdict on your effort.
+      </p>
+    </main>
+  );
+}
+
 export default function App() {
+  const [view, setView] = useState("practice");
   const [active, setActive] = useState("ankle");
+  const [plan, setPlan] = useState(loadPlan);
   // per-track stage progress, persisted to localStorage
   const [progress, setProgress] = useState(loadProgress);
 
@@ -524,12 +1303,20 @@ export default function App() {
     }
   }, [progress]);
 
+  useEffect(() => {
+    try {
+      localStorage.setItem(PLAN_KEY, JSON.stringify(plan));
+    } catch {
+      // storage unavailable - the app still works, nothing is saved
+    }
+  }, [plan]);
+
   const [box, setBox] = useState("");
   const [msg, setMsg] = useState("");
 
   useEffect(() => {
-    setBox(JSON.stringify(progress));
-  }, [progress]);
+    setBox(JSON.stringify({ progress, plan }));
+  }, [progress, plan]);
 
   const track = useMemo(() => TRACKS.find((t) => t.id === active), [active]);
   const reached = progress[active] ?? 0; // highest stage index unlocked
@@ -540,6 +1327,7 @@ export default function App() {
 
   function resetAll() {
     setProgress({});
+    setPlan({ retreat: "", baseline: {}, retest: {}, done: {} });
     flash("All progress cleared");
   }
 
@@ -570,12 +1358,44 @@ export default function App() {
       flash("That code didn't look right");
       return;
     }
+    // new codes are { progress, plan }; older ones are a bare progress map
+    const src = parsed.progress && typeof parsed.progress === "object" ? parsed.progress : parsed;
     const clean = {};
     for (const t of TRACKS) {
-      const v = parsed[t.id];
+      const v = src[t.id];
       if (Number.isInteger(v) && v >= 0 && v < t.stages.length) clean[t.id] = v;
     }
     setProgress(clean);
+
+    const rawPlan = parsed.plan;
+    if (rawPlan && typeof rawPlan === "object" && !Array.isArray(rawPlan)) {
+      const next = { retreat: "", baseline: {}, retest: {}, done: {} };
+      if (isDateStr(rawPlan.retreat)) next.retreat = rawPlan.retreat;
+      for (const group of ["baseline", "retest"]) {
+        const g = rawPlan[group];
+        if (!g || typeof g !== "object") continue;
+        for (const t of BASELINE) {
+          const rec = g[t.id];
+          if (!rec || typeof rec !== "object") continue;
+          for (const f of t.fields) {
+            const val = rec[f.k];
+            if (typeof val === "string" && val.length <= 120) {
+              next[group][t.id] = { ...(next[group][t.id] || {}), [f.k]: val };
+            }
+          }
+        }
+      }
+      const d = rawPlan.done;
+      if (d && typeof d === "object" && !Array.isArray(d)) {
+        for (const key of Object.keys(d)) {
+          if (!isDateStr(key) || !Array.isArray(d[key])) continue;
+          const types = d[key].filter((x) => Object.hasOwn(SESSIONS, x));
+          if (types.length) next.done[key] = Array.from(new Set(types));
+        }
+      }
+      setPlan(next);
+    }
+
     flash("Progress loaded");
   }
 
@@ -601,6 +1421,25 @@ export default function App() {
         </div>
       </header>
 
+      <div style={V.bar} role="tablist" aria-label="View">
+        {[
+          ["practice", "Skill tracks"],
+          ["plan", "30-day block"],
+        ].map(([id, label]) => (
+          <button
+            key={id}
+            role="tab"
+            aria-selected={view === id}
+            onClick={() => setView(id)}
+            style={{ ...V.btn, ...(view === id ? V.on : {}) }}
+          >
+            {label}
+          </button>
+        ))}
+      </div>
+
+      {view === "practice" && (
+        <>
       <nav style={S.trackNav}>
         {TRACKS.map((t) => (
           <button
@@ -798,6 +1637,19 @@ export default function App() {
           </div>
         </section>
       </main>
+        </>
+      )}
+
+      {view === "plan" && (
+        <PlanView
+          plan={plan}
+          setPlan={setPlan}
+          goTrack={(id) => {
+            setActive(id);
+            setView("practice");
+          }}
+        />
+      )}
 
       <section style={S.transfer}>
         <details>
@@ -856,6 +1708,255 @@ const CSS = `
 .vcard:hover { transform: translateY(-4px); box-shadow: 0 18px 40px -18px rgba(44,38,34,.45); }
 .vcard:hover span.vplaymark { opacity: 1; transform: scale(1); }
 `;
+
+const P = {
+  wrap: { padding: "8px 32px 0", maxWidth: 980 },
+  head: {
+    display: "flex",
+    flexWrap: "wrap",
+    gap: 20,
+    alignItems: "flex-start",
+    justifyContent: "space-between",
+    paddingBottom: 22,
+    borderBottom: "1px solid #e3d8c6",
+    marginBottom: 22,
+  },
+  h2: { fontFamily: "'Fraunces', serif", fontSize: 26, fontWeight: 600, marginBottom: 8 },
+  principle: { fontSize: 14.5, lineHeight: 1.65, maxWidth: 560, opacity: 0.82 },
+  dateBox: { display: "flex", flexDirection: "column", gap: 6, minWidth: 168 },
+  dateLabel: { fontSize: 11, letterSpacing: "1.2px", textTransform: "uppercase", opacity: 0.55 },
+  dateInput: {
+    border: "1px solid #d8cbb6",
+    background: CARD,
+    color: INK,
+    borderRadius: 10,
+    padding: "10px 12px",
+    fontSize: 14,
+    fontFamily: "'Spline Sans', sans-serif",
+  },
+  countdown: { fontFamily: "'Fraunces', serif", fontSize: 17, color: ACCENT },
+
+  callout: {
+    background: "#fbf1e8",
+    border: `1px solid ${ACCENT}44`,
+    borderRadius: 14,
+    padding: "16px 18px",
+    marginBottom: 20,
+  },
+  taper: {
+    background: "#f2f4ea",
+    border: `1px solid ${ACCENT2}55`,
+    borderRadius: 14,
+    padding: "16px 18px",
+    marginBottom: 20,
+  },
+  calloutTitle: {
+    fontFamily: "'Fraunces', serif",
+    fontSize: 16,
+    fontWeight: 600,
+    marginBottom: 6,
+  },
+  calloutBody: { fontSize: 14, lineHeight: 1.6, opacity: 0.85 },
+
+  today: {
+    background: CARD,
+    border: "1px solid #e3d8c6",
+    borderRadius: 16,
+    padding: "20px 20px 16px",
+    marginBottom: 22,
+  },
+  todayHead: { display: "flex", alignItems: "center", gap: 10, marginBottom: 12 },
+  todayTag: {
+    fontSize: 11,
+    letterSpacing: "1.4px",
+    textTransform: "uppercase",
+    color: ACCENT,
+    fontWeight: 600,
+  },
+  halfTag: {
+    fontSize: 11,
+    letterSpacing: "1px",
+    textTransform: "uppercase",
+    background: "#e8ecd9",
+    color: "#4d5c37",
+    borderRadius: 20,
+    padding: "3px 9px",
+  },
+  warn: {
+    display: "flex",
+    gap: 9,
+    fontSize: 13.5,
+    lineHeight: 1.55,
+    background: "#fbf1e8",
+    border: `1px solid ${ACCENT}44`,
+    borderRadius: 12,
+    padding: "11px 13px",
+    marginBottom: 14,
+  },
+  warnDot: { color: ACCENT },
+
+  sess: {
+    border: "1px solid #e6dcca",
+    borderRadius: 13,
+    padding: "14px 15px",
+    marginBottom: 12,
+    background: PAPER,
+  },
+  sessDone: { borderColor: `${ACCENT2}66`, background: "#f6f7ef" },
+  sessHead: {
+    display: "flex",
+    justifyContent: "space-between",
+    alignItems: "center",
+    gap: 12,
+    marginBottom: 7,
+  },
+  sessName: { fontFamily: "'Fraunces', serif", fontSize: 17, fontWeight: 600 },
+  sessLen: { fontSize: 12.5, opacity: 0.6, marginLeft: 10 },
+  chip: {
+    border: "1px solid #d8cbb6",
+    background: CARD,
+    color: "#7a6f5e",
+    borderRadius: 20,
+    padding: "8px 14px",
+    fontSize: 12.5,
+    fontFamily: "'Spline Sans', sans-serif",
+    minHeight: 38,
+    whiteSpace: "nowrap",
+  },
+  chipOn: { background: ACCENT2, borderColor: ACCENT2, color: PAPER },
+  aim: { fontSize: 13.5, lineHeight: 1.6, opacity: 0.78, marginBottom: 9 },
+  items: { listStyle: "none", display: "flex", flexDirection: "column", gap: 7 },
+  item: {
+    fontSize: 14.2,
+    lineHeight: 1.55,
+    paddingLeft: 14,
+    borderLeft: `2px solid ${ACCENT}33`,
+    display: "flex",
+    flexWrap: "wrap",
+    gap: 8,
+    alignItems: "baseline",
+  },
+  jump: {
+    border: "none",
+    background: "none",
+    padding: 0,
+    fontSize: 12.5,
+    color: "#8a7f6c",
+    fontFamily: "'Spline Sans', sans-serif",
+  },
+  others: { marginTop: 10 },
+  summary: { fontSize: 13, opacity: 0.7, cursor: "pointer", padding: "6px 0" },
+  otherRow: { display: "flex", gap: 8, flexWrap: "wrap", paddingTop: 8 },
+
+  block: { marginBottom: 26 },
+  h3: {
+    fontFamily: "'Fraunces', serif",
+    fontSize: 19,
+    fontWeight: 600,
+    marginBottom: 9,
+  },
+  hint: { fontSize: 13.2, lineHeight: 1.6, opacity: 0.7, marginTop: 10, maxWidth: 640 },
+
+  weekGrid: { display: "flex", gap: 7, flexWrap: "wrap" },
+  weekCell: {
+    flex: "1 1 96px",
+    border: "1px solid #e6dcca",
+    borderRadius: 11,
+    padding: "10px 9px",
+    background: CARD,
+    minWidth: 92,
+  },
+  weekToday: { borderColor: ACCENT, background: "#fbf1e8" },
+  weekDay: {
+    fontSize: 11,
+    letterSpacing: "1px",
+    textTransform: "uppercase",
+    opacity: 0.55,
+    marginBottom: 4,
+  },
+  weekWork: { fontSize: 13, lineHeight: 1.4 },
+
+  strip: { display: "flex", gap: 6, flexWrap: "wrap" },
+  stripCell: { display: "flex", flexDirection: "column", alignItems: "center", gap: 5 },
+  stripDay: { fontSize: 10, opacity: 0.45 },
+  stripMark: {
+    width: 22,
+    height: 22,
+    borderRadius: 7,
+    border: "1px solid #e0d5c2",
+    background: CARD,
+  },
+  stripOn: { background: `${ACCENT2}66`, borderColor: `${ACCENT2}88` },
+  stripStrong: { background: ACCENT2, borderColor: ACCENT2 },
+  stripToday: { outline: `2px solid ${ACCENT}`, outlineOffset: 1 },
+
+  test: {
+    border: "1px solid #e6dcca",
+    borderRadius: 13,
+    padding: "14px 15px",
+    marginBottom: 10,
+    background: CARD,
+  },
+  testName: { fontFamily: "'Fraunces', serif", fontSize: 16, fontWeight: 600, marginBottom: 5 },
+  testPrompt: { fontSize: 13.8, lineHeight: 1.55, opacity: 0.82 },
+  testNote: {
+    fontSize: 12.8,
+    lineHeight: 1.55,
+    opacity: 0.72,
+    marginTop: 7,
+    paddingLeft: 12,
+    borderLeft: `2px solid ${ACCENT}44`,
+  },
+  fieldRow: { display: "flex", gap: 12, flexWrap: "wrap", marginTop: 11 },
+  field: { display: "flex", flexDirection: "column", gap: 5, flex: "1 1 180px" },
+  fieldLabel: { fontSize: 11.5, letterSpacing: "0.8px", textTransform: "uppercase", opacity: 0.55 },
+  fieldPair: { display: "flex", gap: 7 },
+  input: {
+    flex: 1,
+    minWidth: 0,
+    border: "1px solid #d8cbb6",
+    background: PAPER,
+    color: INK,
+    borderRadius: 9,
+    padding: "9px 11px",
+    fontSize: 14,
+    fontFamily: "'Spline Sans', sans-serif",
+  },
+  inputRetest: { borderColor: `${ACCENT}66`, background: "#fbf1e8" },
+
+  expect: { display: "flex", flexDirection: "column", gap: 9 },
+  expectRow: { display: "flex", gap: 11, alignItems: "flex-start" },
+  expectDot: { color: "#b9ab94", fontSize: 12, lineHeight: "20px" },
+  expectFast: { color: ACCENT2 },
+  expectName: { fontSize: 14.5, fontWeight: 500 },
+  expectTime: { fontSize: 13, opacity: 0.68, lineHeight: 1.5 },
+
+  disclaimer: {
+    fontSize: 12.5,
+    lineHeight: 1.65,
+    opacity: 0.6,
+    borderTop: "1px solid #e3d8c6",
+    paddingTop: 16,
+    marginTop: 6,
+    maxWidth: 680,
+  },
+};
+
+const V = {
+  bar: { display: "flex", gap: 8, padding: "18px 32px 0" },
+  btn: {
+    border: "1px solid #d8cbb6",
+    background: CARD,
+    color: "#7a6f5e",
+    borderRadius: 22,
+    padding: "10px 20px",
+    fontSize: 13.5,
+    fontFamily: "'Spline Sans', sans-serif",
+    minHeight: 42,
+    cursor: "pointer",
+  },
+  on: { background: INK, borderColor: INK, color: PAPER },
+};
 
 const S = {
   root: {

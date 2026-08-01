@@ -109,3 +109,42 @@ do instead. Rendered under the drills as "If that doesn't work for you".
 Write these for the reader who cannot do the stage as written, not for the
 reader who finds it easy. A track without `alt` lines silently assumes a body
 that can kneel, bear weight through the wrists and stand on one leg.
+
+## The 30-day block (plan view)
+
+The app has two views, switched at the top: **Skill tracks** (the reference
+progressions) and **30-day block** (a dated training block).
+
+The block is built on one principle: *class is where you spend range, home is
+where you build the capacity to own it.* Range-of-motion gains plateau at about
+10 minutes per week per muscle group, so someone already attending frequent
+classes gains nothing from more stretching at home. The block therefore
+prescribes strength and skill, and keeps stretching minimal and targeted.
+
+Data lives in three constants near the bottom of `src/App.jsx`:
+
+- `SESSIONS` - the three session types (`skill`, `strength`, `mobility`), each
+  with a label, length, an aim, and a list of items. An item may carry a
+  `track` id, which renders an "open track" jump into the matching progression.
+- `WEEK` - array of 7 arrays, Sunday first, mapping weekday to session types.
+  An empty array is a rest day. Strength days are spaced 72h+ apart by design.
+- `BASELINE` - the day-one tests. Each has an `id`, `name`, `prompt`, optional
+  `note`, and `fields` (each `{ k, label }`). The same fields are reused for the
+  retest, which unlocks five days before the retreat date.
+
+Phases derive from the retreat date the user sets:
+
+| Days to retreat | Behaviour |
+|---|---|
+| more than 5 | normal block |
+| 5 or fewer | retest column appears next to the baseline |
+| 4 or fewer | taper banner, "half volume" tag on sessions |
+| 0 or fewer | training view replaced by an at-the-retreat note |
+
+Plan state is stored separately under `steady-practice-plan`. The transfer code
+in "Move or reset your progress" now carries `{ progress, plan }`. Older codes
+that are a bare progress map are still accepted.
+
+Deliberately absent: streaks, completion percentages, and any red marking of
+missed days. The two-week strip exists so hard-session spacing is visible, not
+to create obligation.
