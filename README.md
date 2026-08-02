@@ -4,18 +4,33 @@ A skill-focused yoga launcher. Instead of listing full classes, it organises pra
 
 Built as a single-file React app so the content is easy to edit. Your stage progress is saved in the browser on your device.
 
+> **Before changing anything, read [`docs/DECISIONS.md`](docs/DECISIONS.md).**
+> Several things in this project look like inconsistencies or overcaution and are
+> deliberate — particularly the safety wording, the video metadata, the dependency
+> chain, and the fact that home practice avoids added stretching. That file records
+> what not to undo, and the deployment constraints that will otherwise bite you.
+
 ## Skill tracks
 
 | Track | Focus | Feeds into |
 |-------|-------|-----------|
-| Ankle Mobility | Dorsiflexion for flat-foot squatting and clean transitions | Dolphin, tripod, single-leg, handstand |
-| Dolphin & Wide Legs | Shoulder flexion and wide-leg fold | Tripod, forearm stand |
-| Tripod & Crow | Arm-balance base into tripod headstand | Handstand |
+| Ankle Mobility | Dorsiflexion for flat-foot squatting and clean transitions | Deep squat, single-leg rise, knee-over-toe shapes |
+| Deep Squat | Sitting into the bottom position without rolling back | Malasana, low transitions, Skandasana |
+| Skandasana / Side Lunge | Loaded side lunge: adductors, ankle, balance | Wide standing poses, straddle, low transitions |
+| Dolphin & Wide Legs | Shoulder flexion and wide-leg fold | Tripod, forearm stand, handstand line |
+| Overhead & Thoracic | Getting arms truly overhead without rib flare | Dolphin, forearm stand, handstand, wheel |
+| Tripod & Crow | Arm-balance base, with the forearm route preferred | Crow-to-tripod transition |
 | Single-Leg Rise | Controlled standing on one leg, no hands | Warrior III, standing split rises |
-| Wheel / Backbend | Even, safe spinal extension | Shoulder opening for handstand |
+| Wheel / Backbend | Even, safe spinal extension | Deep spinal extension |
 | Handstand | Wall drills to freestanding line | Peak inversion |
 
-The tracks share an underlying dependency chain: ankle range feeds most of the others, dolphin's shoulder flexion precedes tripod, and tripod's inversion comfort precedes handstand. Each track's "why it matters" note spells out its place in that chain.
+Tracks are connected, but only where the connection is real. Dolphin's shoulder flexion
+precedes tripod; overhead range gates most inversions and backbends; ankle range feeds the
+squat pattern and single-leg work. Ankle mobility does **not** feed dolphin, wheel or
+handstand — those are limited elsewhere, and an earlier version of this table claimed
+otherwise. See [`docs/DECISIONS.md`](docs/DECISIONS.md) §3.
+
+Each track's "why it matters" note spells out its place in that chain.
 
 ## Each track gives you
 
@@ -107,6 +122,7 @@ steady-practice/
     main.jsx            # React bootstrap
     App.jsx             # the whole app: TRACKS data + UI + styles
   docs/
+    DECISIONS.md        # why things are the way they are - read before editing
     DEPLOYMENT.md       # hosting and GitHub Pages guide
     CONTENT.md          # deeper guide to the practice content model
   .github/workflows/

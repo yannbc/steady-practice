@@ -1,5 +1,10 @@
 # The content model
 
+> **Companion file:** [`DECISIONS.md`](DECISIONS.md) records *why* the content reads the
+> way it does — which safety wordings are load-bearing, which dependencies were removed
+> for being false, and which apparent inconsistencies are deliberate. This file tells you
+> how to edit; that one tells you what not to undo.
+
 This app is deliberately content-first. The code is a thin, stable shell around one data structure. If you only ever touch the `TRACKS` array, you can reshape the entire practice without reading the UI code.
 
 ## Design principles
