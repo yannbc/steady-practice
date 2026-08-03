@@ -115,18 +115,28 @@ A ready-to-use GitHub Pages workflow is included at [`.github/workflows/deploy.y
 
 ```
 steady-practice/
+  CLAUDE.md             # project context for AI coding agents - read first
   index.html            # Vite entry
   package.json
   vite.config.js
   src/
     main.jsx            # React bootstrap
     App.jsx             # the whole app: TRACKS data + UI + styles
+    assets/icons/       # draft track icons (SVG, not yet integrated)
+  design/
+    icons.html          # contact sheet for reviewing the icons at real sizes
   docs/
     DECISIONS.md        # why things are the way they are - read before editing
+    CONTENT.md          # guide to the practice content model
     DEPLOYMENT.md       # hosting and GitHub Pages guide
-    CONTENT.md          # deeper guide to the practice content model
+    EVIDENCE.md         # research brief with citations, graded by confidence
+    CONTENT-REVIEW.md   # audit behind the metadata + dependency fixes
+    UX-REVIEW.md        # usability findings, incl. what is knowingly deferred
+    VISUAL-BRIEF.md     # palette, type and constraints for new visual assets
+    VOICE-AND-RAG.md    # assessment of spoken cues and why retrieval is not needed
+    HANDOVER-PROMPT.md  # prompts for briefing a coding agent on this repo
   .github/workflows/
-    deploy.yml          # GitHub Pages build & deploy
+    deploy.yml          # present, but NOT what publishes the site (see DEPLOYMENT.md)
 ```
 
 ## Disclaimer
